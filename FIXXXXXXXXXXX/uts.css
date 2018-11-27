@@ -1,0 +1,260 @@
+body {
+	top: 100px;
+	background-color: #FFCC66;
+}
+
+.der {
+	background-color:#CCCCCC;
+	list-style: none;
+	text-align: center;
+	padding: 4px 0px;
+	width: 100%;
+	
+}
+
+.btn {
+	width: auto;
+	padding: 12px 10px;
+}
+
+.der li {
+	display: inline-block;
+	padding: 0 25px 0px 25px;
+
+}
+.der  li  a {
+	text-decoration: none;
+	color: #000000;
+
+}
+.der  li  a:hover {
+	color: #1B3280;
+	background-color: #fefefe;
+}
+.der  li  a {
+	font-size: 20px;
+}
+
+.logo {
+	position: relative;
+	width: 60px;
+	height: 60px;
+	left: 20px;
+}
+
+.log {
+	position: absolute;
+	top: -5px;
+	left: 100px
+}
+.h {
+	list-style: none;
+	text-align: center;
+	padding: 0px 8px;
+	width: 98%;
+}
+.uu {
+	list-style: none;
+	text-align: center;
+	padding: 0px 8px;
+	width: 98%;
+}
+.j {
+	list-style: none;
+	text-align: center;
+	padding: 0px 8px;
+	width: 98%;
+}
+.sa {
+	list-style: none;
+	text-align: center;
+	padding: 0px 8px;
+	width: 98%;
+}
+.lihat {
+	position: absolute;
+	top: -5px;
+	right: 50px;
+	list-style: none;
+}
+.lihat{
+	display: inline-block;
+	padding: 0 25px 0px 25px;
+
+}
+.lihat{
+	text-decoration: none;
+	color: #000000;
+
+}
+.lihat :hover {
+	color: #1B3280;
+	background-color: #fefefe;
+}
+
+.sejarah {
+	color: #CC6600;
+	background-color: #CC6600;
+	padding: 0 25px 0px 25px;
+	position: absolute;
+	top: 80px;
+	right: 40px;
+	list-style: none;
+}
+.zz {
+	list-style: none;
+	text-align: center;
+	padding: 0px 15px;
+	width: 98%;	
+}
+.kotak {
+	color: #CC6600;
+	background-color: #CC6600;
+	padding: 0 25px 0px 25px;
+	position: absolute;
+	top: 80px;
+	right: 40px;
+	list-style: none;
+}
+
+
+input, textarea{
+     padding: 10px;
+     border:3px solid #e6e6e6;
+     border-radius: 5px;
+     margin-bottom: 15px; 
+}
+input:focus, textarea:focus{
+    border:3px solid #5E4F4F;
+}
+ 
+textarea{
+    width:300px;
+}
+input[type="submit"]{
+     cursor: pointer;
+     background: -webkit-linear-gradient(top, #efefef, #ddd);
+     background: -moz-linear-gradient(top, #efefef, #ddd);
+     background: -ms-linear-gradient(top, #efefef, #ddd);
+     background: -o-linear-gradient(top, #efefef, #ddd);
+     background: linear-gradient(top, #efefef, #ddd);
+     color: #333;
+     text-shadow: 0px 1px 1px rgba(255,255,255,1);
+     border: 1px solid #ccc;
+}
+ 
+input[type="submit"]:hover {
+     background: -webkit-linear-gradient(top, #eee, #ccc);
+     background: -moz-linear-gradient(top, #eee, #ccc);
+     background: -ms-linear-gradient(top, #eee, #ccc);
+     background: -o-linear-gradient(top, #eee, #ccc);
+     background: linear-gradient(top, #eee, #ccc);
+     border: 1px solid #bbb;
+}
+
+.kotaki {
+	color: #CC6600;
+	background-color: #CC6600;
+	padding: 0 25px 0px 25px;
+	position: absolute;
+	top: 220px;
+	right: 40px;
+	list-style: none;
+}
+
+@media screen and (max-width: 780px) {
+	
+	.header, 
+	.footer{
+		text-align: center;
+	}
+	.left {
+		width: auto;
+		float: none;
+	}
+	
+	.middle {
+		width: auto;
+		float: none;
+	}
+	
+	.right {
+		width: auto;
+		float: none;
+	}
+
+}
+.yx {
+	color: #CC6600;
+	background-color: #CC6600;
+	padding: 0 25px 0px 25px;
+	position: absolute;
+	top: 80px;
+	right: 1190px;
+	list-style: none;
+}
+.yt {
+	padding: 0 25px 0px 25px;
+	position: absolute;
+	top: 180px;
+	right: 155px;
+	list-style: none;
+}
+.ay {
+	color: white ;
+	padding: 0 105px 0px 105px;
+	position: absolute;
+	top: 100px;
+	right: 100px;
+	list-style: none;
+
+}
+.hasan {
+	padding: 0 105px 0px 105px;
+	position: absolute;
+	top: 330px;
+	right: 820px;
+	list-style: none;
+}
+.satu {
+	padding: 0 105px 0px 105px;
+	position: absolute;
+	top: 690px;
+	right: 820px;
+	list-style: none;
+}
+.sat {
+	padding: 0 105px 0px 105px;
+	position: absolute;
+	top: 690px;
+	right: 550px;
+	list-style: none;
+}
+.say {
+	padding: 0 105px 0px 105px;
+	position: absolute;
+	top: 690px;
+	right: 1090px;
+	list-style: none;	
+}
+.dua {
+	padding: 0 105px 0px 105px;
+	position: absolute;
+	top: 1025px;
+	right: 820px;
+	list-style: none;
+}
+.du {
+	padding: 0 105px 0px 105px;
+	position: absolute;
+	top: 1025px;
+	right: 1090px;
+	list-style: none;
+}
+.dut {
+	padding: 0 105px 0px 105px;
+	position: absolute;
+	top: 1025px;
+	right: 550px;
+	list-style: none;	
+}
